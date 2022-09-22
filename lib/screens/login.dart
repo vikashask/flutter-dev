@@ -111,7 +111,7 @@ class _LoginState extends State<Login> {
                             color: Colors.black),
                       ),
                       const SizedBox(
-                        height: 30,
+                        height: 40,
                       ),
                       TextFormField(
                         keyboardType: TextInputType.number,
@@ -120,12 +120,13 @@ class _LoginState extends State<Login> {
                           prefixIcon:
                               Image.asset("assets/images/SaudiFlag.png"),
                           prefixText: "+966",
+                          prefixStyle: TextStyle(color: Colors.grey),
                           border: OutlineInputBorder(),
                           labelText: 'Mobile Number',
                         ),
                       ),
                       const SizedBox(
-                        height: 10,
+                        height: 20,
                       ),
                       Row(
                         mainAxisAlignment: MainAxisAlignment.end,
